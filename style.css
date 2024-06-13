@@ -1,0 +1,554 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    border: border-box;
+    font-family: Calibri, sans-serif ,'Gill Sans', 'Gill Sans MT', 'Trebuchet MS' ;
+    text-decoration: none;
+}
+
+.top
+{
+    width: 100vw;
+    height: 435px;
+    background-image: url("Zomato Hero Img.avif");
+    background-size: cover;
+    background-position: center;
+}
+
+.navbar
+{
+    width: 100vw;
+    height: 75px;
+    display: flex;
+    align-items: center;
+}
+
+.app
+{
+    margin-left: 15%;
+    width: 100px;
+}
+
+.applink
+{
+    color: white;
+    text-decoration: none;
+    font-size: 0.85rem;
+}
+
+/* .app p
+{
+    font-size: 0.75rem;
+    background-color: whitesmoke;
+    visibility: hidden;
+}
+
+.applink i:hover .app p
+{
+    visibility: visible;
+} */
+
+.nav_links
+{
+    width: 500px;
+    font-size: 1.2rem;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    /* align-self: flex-end; */
+    margin-left: 500px;
+}
+
+.top_links
+{
+    color: white;
+    text-decoration: none;
+}
+
+.rest_top
+{
+    text-align: center;
+}
+
+.logo
+{
+    height: 60px;
+    width: 300px;
+    margin-top: 50px;
+}
+
+.text1
+{
+    font-size: 36px;
+    margin-top: 30px;
+    color: white;
+}
+
+.searchbar
+{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+    background-color: white;
+    width: 725px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.locationicon
+{
+    height: 36px;
+    width: 40px;
+    margin-top: 20px;
+    border-radius: 2px 0px 0px 2px;
+    zoom: 120%;
+}
+
+#location
+{
+    border: none;
+    border-right: 1px dashed grey;
+    height: 50px;
+    width: 200px;
+    font-size: 1rem;
+    color: grey;
+}
+
+.searchicon
+{
+    height: 36px;
+    width: 40px;
+    margin-top: 20px;
+    zoom: 120%;
+}
+
+.searchtext
+{
+    height: 50px;
+}
+
+#searchtext
+{
+    height: 50px;
+    width: 445px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 0 5px 5px 0;
+}
+
+.options
+{
+    display: flex;
+    justify-content: center;
+}
+
+.optionbox
+{
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-top: 25px;
+    height: 250px;
+    border: 1px solid grey;
+    border-radius: 15px;
+}
+
+.optionbox:hover
+{
+    transform: scale(1.05);
+    transition-timing-function: ease;
+    transition-duration: 0.75s;
+}
+
+.optimg
+{
+    height: 150px;
+    width: 400px;
+    border-radius: 15px 15px 0 0;
+}
+
+.img1
+{
+    background-image: url(Img1.avif);
+    background-position: center;
+}
+
+.img2
+{
+    background-image: url(Img2.avif);
+    background-position: center;
+}
+
+.img3
+{
+    background-image: url(Img3.avif);
+    background-position: center;
+}
+
+.text2
+{
+    color: rgb(90, 89, 89);
+    margin-top: 20px;
+    margin-left: 20px;
+    line-height: 35px;
+    height: 100px;
+    /* text-decoration: none; */
+}
+
+.collections
+{
+    display: flex;
+    justify-content: center;
+}
+
+.places
+{
+    margin-top: 20px;
+    border-radius: 5px;
+    height: 370px;
+    width: 300px;
+    background-position: center;
+    margin-left: 7px;
+    margin-right: 7px;
+    color: white;
+    line-height: 23px;
+    font-size: 1.2rem;
+    position: relative;
+}
+
+.text3
+{
+    position: absolute;
+    bottom: 3px;
+    left: 7px;
+}
+
+.img4
+{
+    background-image: url(Img4.webp);
+    background-size: 300px 370px;
+}
+
+.img5
+{
+    background-image: url(Img5.avif);
+    background-size: 300px 370px;
+}
+
+.img6
+{
+    background-image: url(Img6.avif);
+}
+
+.img7
+{
+    background-image: url(Img7.avif);
+    background-size: 500px 370px;
+}
+
+.table
+{
+    margin-left: 100px;
+    margin-top: 15px;
+}
+
+.table_element
+{
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    color: grey;
+    width: 407px;
+    height: 75px;
+    margin-left: 7px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.address
+{
+    width: 150px;
+    position: absolute;
+    left: 20px;
+    font-size: 1.2rem;
+    line-height: 15px;
+}
+
+.table_icon
+{
+    width: 10px;
+    height: 16.8px;
+    position: absolute;
+    right: 20px;
+}
+
+.last_element_1
+{
+    position: absolute;
+    left: 150px;
+}
+
+.last_element_2
+{
+    position: absolute;
+    left: 230px;
+}
+
+.table_element:hover
+{
+    box-shadow: 0.2px 0.2px 0.2px 0.2px rgb(55, 55, 55);
+}
+
+.appform
+{
+    width: 100vw;
+    height: 600px;
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img8
+{
+    height: 450px; 
+    width: 225px;
+    position: relative;
+    background-color: rgb(255, 251, 247);
+}
+
+.mobileimg
+{
+    position: absolute;
+    top: 70px;
+}
+
+.details
+{
+    height: 450px;
+    width: 450px;
+    margin-left: 20px;
+    position: relative;
+    background-color: rgb(255, 251, 247);
+}
+
+.text4
+{
+    position: absolute;
+    top: 0;
+    font-size: 1.3rem;
+    font-weight: 20;
+}
+
+.text5
+{
+    position: absolute;
+    top: 75px;
+    font-size: 1.2rem;
+    color: grey;
+}
+
+.pocinput1
+{
+    position: absolute;
+    top: 175px;
+    font-size: 1.2rem;
+}
+
+.radio
+{
+    accent-color: #ef4f5f;
+    color: grey;
+}
+
+.radio2
+{
+    margin-left: 50px;
+}
+
+.pocinput2
+{
+    position: absolute;
+    top: 225px;
+    height: 53.2px;
+}
+
+#emailtext
+{
+    height: 52.2px;
+    width: 300px;
+    border-radius: 5px;
+    border-width: 0.5px;
+    border-color: grey;
+    font-size: 1.3rem;
+    color: grey;
+}
+
+.button
+{
+    height: 53.2px;
+    width: 130px;
+    border: none;
+    background-color: #ef4f5f;
+    border-radius: 7px;
+    color: white;
+    margin-left: 5px;
+    font-size: 1.1rem;
+}
+
+.button:hover
+{
+    background-color: #eb3043;
+}
+
+.download
+{
+    position: absolute;
+    top: 320px;
+    width: 400px;
+    color: grey;
+}
+
+.storelink
+{
+    margin-top: 15px;
+}
+
+.appstore
+{
+    margin-left: 25px;
+}
+
+.exploremenu
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.menuopt
+{
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    color: grey;
+    width: 81vw;
+    height: 75px;
+    margin-bottom: 8px;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.text6
+{
+    position: absolute;
+    top: 30px;
+    left: 20px;
+}
+
+.menuicon
+{
+    position: absolute;
+    top: 30px;
+    right: 20px;
+}
+
+.footer1
+{
+    width: 100vw;
+    padding-top: 30px;
+    display: flex;
+    position: relative;
+}
+
+.footerlogo
+{
+    margin-left: 9vw;
+}
+
+#country
+{
+    border: 0.5px solid grey;
+    border-radius: 5px 5px 5px 5px;
+    height: 41.6px;
+    width: 120px;
+    position: absolute;
+    right: 20vw;
+}
+
+.globelang
+{
+    display: flex;
+    border: 0.5px solid grey;
+    border-radius: 5px;
+    position: absolute;
+    right: 9vw;
+    height: 40px;
+    width: 120px;
+}
+
+.globelogo
+{
+    height: 38.4px;
+    width: 18px;
+    margin-right: 1px;
+    margin-top: 1px;
+    background-color: white;
+    border-radius: 5px 0 0 5px;
+}
+
+#lang
+{
+    border: none;
+    height: 40px;
+    width: 100px;
+    border-radius: 0 5px 5px 0;
+}
+
+.footerlinks
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-left: 9vw;
+    margin-right: 9vw;
+}
+
+ul
+{
+    list-style-type: none;
+    color: grey;
+    font-size: 0.8rem;
+    line-height: 25px;
+}
+
+ul a
+{
+    color: grey;
+}
+
+.spanicons a
+{
+    color: grey;
+}
+
+.footerimg
+{
+    margin-top: 15px;
+}
+
+.copyright
+{
+    margin-top: 7vw;
+    margin-left: 9vw;
+    margin-right: 9vw;
+    padding-top: 2vw;
+    border-top: 0.5px solid grey;
+    color: grey;
+    font-size: 0.8rem;
+    text-align: center;
+}

@@ -1,0 +1,8 @@
+Show "Download-App" when we hover over the Get-App
+Proper Background image positioning
+Proper margin to whole page
+E-Mail and Phone NUmber Input
+Radio Buttons
+Country Maps
+Clicking on a Span and activating a Select Box
+Make It Responsive

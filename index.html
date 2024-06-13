@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zomato Project</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <header>
+        <div class="top">
+            <div class="navbar">
+                <div class="app">
+                    <a class="applink" href="#">
+                        <i class="fa-solid fa-mobile-screen-button"></i>
+                        Get the App
+                    </a>
+                    <!-- <br>
+                    <p>Downlaod-App</p> -->
+                </div>
+                <div class="nav_links">
+                    <div><a class="top_links" href="#">Investor Relations</a></div>
+                    <div><a class="top_links" href="#">Add restaurant</a></div>
+                    <div><a class="top_links" href="#">Log in</a></div>
+                    <div><a class="top_links" href="#">Sign up</a></div>
+                </div>
+            </div>
+            <div class="rest_top">
+                <img src="https://b.zmtcdn.com/web_assets/8313a97515fcb0447d2d77c276532a511583262271.png" class="logo" alt="" role="presentation">
+                <p class="text1">Discover the best food and drinks in Jaipur</p>
+                <div class="searchbar">
+                    <div class="locationicon"><i class="fa-solid fa-location-dot"></i></div>
+                    <div class="location">
+                        <select name="location" id="location">
+                            <option value="Jaipur">Jaipur</option>
+                            <option value="Jhunjhunu">Jhunjhunu</option>
+                            <option value="Sikar">Sikar</option>
+                            <option value="Bikaner">Bikaner</option>
+                        </select>
+                    </div>
+                    <div class="searchicon"><i class="fa-solid fa-magnifying-glass"></i></div>
+                    <div class="searchtext">
+                        <input type="text" name="searchtext" id="searchtext" placeholder="Search for reastaurant, cuisine or a dish">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <div class="options">
+        <div class="optionbox">
+            <a href="#">
+                <div class="img1 optimg"></div>
+                <div class="text2">
+                    <h2>Order Online</h2>
+                    <p style="font-size: 1.2rem;">Stay home and order to your doorstep</p>
+                </div>
+            </a>
+        </div>
+        <div class="optionbox">
+            <a href="#">
+                <div class="img2 optimg"></div>
+                <div class="text2">
+                    <h2>Dining</h2>
+                    <p style="font-size: 1.2rem;">View the city's favourite dining venues</p>
+                </div>
+            </a>
+        </div>
+        <div class="optionbox">
+            <a href="#">
+                <div class="img3 optimg"></div>
+                <div class="text2">
+                    <h3>Nightlife and Clubs</h3>
+                    <p style="font-size: 1.2rem;">Explore the city's top nightlife outlets</p>
+                </div>
+            </a>
+        </div>
+    </div>
+    <br><br><br>
+    <h1 style="color: rgb(37, 37, 37); margin-left: 113px;">Collections</h1>
+    <div>
+        <p style="color: rgb(90, 89, 89); font-size: 1.3rem; margin-left: 115px; line-height: 40px; display: inline-block;">Explore curated lists of top restaurants, cafes, pubs, and bars in Jaipur, based on trends</p>
+        <span>
+            <a href="#" style="color: rgb(255, 114, 138); margin-left: 310px; font-size: 1.2rem;">
+            All collections in Jaipur <i class="fa-solid fa-caret-right"></i></i>
+            </a>
+        </span>
+    </div>
+    <div class="collections">
+        <a href="#">
+            <div class="places img4">
+                <div class="text3">
+                    <h4>Newly Opened Restaurants</h4>
+                    <p style="font-size: 1rem ;">13 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="places img5">
+                <div class="text3">
+                    <h4>Best Royal Dining Places</h4>
+                    <p style="font-size: 1rem ;">11 Places <i class="fa-solid fa-caret-right"></i></i></p>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="places img6">
+                <div class="text3">
+                    <h4>Best of live screenings</h4>
+                    <p style="font-size: 1rem ;">39 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+            </div>
+        </a>
+        <a href="#">
+            <div class="places img7">
+                <div class="text3">
+                    <h4>Best Insta-worthy Places</h4>
+                    <p style="font-size: 1rem ;">36 Places <i class="fa-solid fa-caret-right"></i></p>
+                </div>
+            </div>
+        </a>
+    </div>
+    <br><br><br><br>
+    <h3 style="color: rgb(86, 86, 86); margin-left: 109px; font-size: 2.2rem; display: inline;">Popular localities in and around <h2 style="color: rgb(92, 92, 92); display: inline; font-size: 2rem;">Jaipur</h2></h3>
+    <br><br>
+    <table class="table">
+        <tr>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <div class="address">
+                            <h4>C Scheme</h4>
+                            <br>
+                            307 places
+                        </div>
+                        <div class="table_icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <div class="address">
+                            <h5>Malviya Nagar</h5>
+                            <br>
+                            660 places
+                        </div>
+                        <div class="table_icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <div class="address">
+                            <h5>Tonk Road</h5>
+                            <br>
+                            172 places
+                        </div>
+                        <div class="table_icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <div class="address">
+                            <h4>Vaishali Nagar</h4>
+                            <br>
+                            731 places
+                        </div>
+                        <div class="table_icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <div class="address">
+                            <h5>MI Road</h5>
+                            <br>
+                            135 places
+                        </div>
+                        <div class="table_icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <div class="address">
+                            <h5>Mansarovar</h5>
+                            <br>
+                            1004 places
+                        </div>
+                        <div class="table_icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <div class="address">
+                            <h4>Raja Park</h4>
+                            <br>
+                            311 places
+                        </div>
+                        <div class="table_icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <div class="address">
+                            <h5>Bani Park</h5>
+                            <br>
+                            129 places
+                        </div>
+                        <div class="table_icon">
+                            <i class="fa-solid fa-angle-right"></i>
+                        </div>
+                    </div>
+                </a>
+            </td>
+            <td>
+                <a href="#">
+                    <div class="table_element">
+                        <h4 class="last_element_1" style="display: inline;">see more</h4>
+                        <i class="fa-solid fa-angle-down last_element_2"></i>
+                    </div>
+                </a>
+            </td>
+        </tr>
+    </table>
+    <div class="appform">
+        <div class="img8">
+            <img class="mobileimg" height="325px" width="250px" alt="get-zomato-app" src="https://b.zmtcdn.com/data/o2_assets/f773629053b24263e69f601925790f301680693809.png" loading="auto">
+        </div>
+        <div class="details">
+            <div class="text4"><h1>Get the Zomato app</h1></div>
+            <div class="text5"><h5>We will send you a link, open it on your phone to download the app</h5></div>
+            <div class="pocinput1">
+                <span class="radio1"><input type="radio" value="e-mail" checked name="poc" class="radio" id="e-mail"><label for="e-mail">  E-Mail</label></span>
+                <span class="radio2"><input type="radio" value="mobno" name="poc" class="radio" id="mobno"><label for="mobno">  Phone</label></span>
+            </div>
+            <div class="pocinput2">
+                <input type="text" name="pocvalue" id="emailtext" placeholder="   Email">
+                <button class="button">Share App Link</button>
+            </div>
+            <div class="download">
+                <h6>Download app from</h6>
+                <a href="#">
+                    <img class="storelink" src="Img9.webp" height="40px" width="140px" alt="Playstore Link">
+                </a>
+                <a href="#">
+                    <img class="storelink appstore" src="Img10.webp" height="40px" width="140px" alt="App-store Link">
+                </a>
+            </div>
+        </div>
+    </div>
+    <h3 style="color: rgb(86, 86, 86); margin-left: 109px; font-size: 2.2rem; display: inline;">Explore options near me</h3>
+    <div class="exploremenu">
+        <a href="#">
+            <div class="menuopt">
+                <span class="text6">Popular cuisines near me</span> <span class="menuicon"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="menuopt">
+                <span class="text6">Popular restaurant types near me</span> <span class="menuicon"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="menuopt">
+                <span class="text6">Top Restaurant Chains</span> <span class="menuicon"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+        </a>
+        <a href="#">
+            <div class="menuopt">
+                <span class="text6">Cities We Deliver To</span> <span class="menuicon"><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+        </a>
+    </div>
+    <br><br><br>
+    <footer style="background-color: rgb(248, 248, 248); margin-top: 15px;">
+        <div class="footer1">
+            <img src="FooterLogo.avif" height="30px" width="150px" class="footerlogo" alt="Zomato Logo">
+            <select name="country" id="country">
+                <option value="India"> India </option>
+                <option value="Bhutan"> Bhutan </option>
+                <option value="Myanmar"> Myanmar </option>
+            </select>
+            <div class="globelang">
+                <div class="globelogo"><i class="fa-solid fa-globe" style="margin-top: 12px; margin-left: 2px;"></i></div>
+                <div class="lang">
+                    <select name="lang" id="lang">
+                        <option value="English">  English </option>
+                        <option value="Hindi">  हिंदी </option>
+                        <option value="Spanish">  Español </option>
+                        <option value="Russian">  Russian </option>
+                        <option value="Italian">  Italian </option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="footerlinks">
+            <div>
+                <h4>ABOUT ZOMATO</h4>
+                <ul>
+                    <li><a href="#">Who We Are</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Work With Us</a></li>
+                    <li><a href="#">Investor Relations</a></li>
+                    <li><a href="#">Report Fraud</a></li>
+                    <li><a href="#">Press Kit</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>ZOMAVERSE</h4>
+                <ul>
+                    <li><a href="#">Zomato</a></li>
+                    <li><a href="#">Blinkit</a></li>
+                    <li><a href="#">Feeding India</a></li>
+                    <li><a href="#">Hyperpure</a></li>
+                    <li><a href="#">Zomaland</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>FOR RESTAURANTS</h4>
+                <ul>
+                    <li><a href="#">Partner With Us</a></li>
+                    <li><a href="#">Apps For You</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Learn More</h4>
+                <ul>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Security</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Sitemap</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 style="margin-bottom: 10px;">Social Links</h4>
+                <span class="spanicons" style="margin-right: 3px;"><a href="#"><i class="fa-brands fa-linkedin"></i></a></span>
+                <span class="spanicons" style="margin-right: 3px;"><a href="#"><i class="fa-brands fa-square-instagram"></i></a></span>
+                <span class="spanicons" style="margin-right: 3px;"><a href="#"><i class="fa-brands fa-square-twitter"></i></a></span>
+                <span class="spanicons" style="margin-right: 3px;"><a href="#"><i class="fa-brands fa-square-youtube"></i></a></span>
+                <span class="spanicons" style="margin-right: 3px;"><a href="#"><i class="fa-brands fa-facebook"></i></a></span>
+                <div class="footerimg"><a href="#"><img src="Img10.webp" height="40px" width="140px" alt="Appstore Link"></a></div>
+                <div class="footerimg"><a href="#"><img src="Img9.webp" height="40px" width="140px" alt="Playstore Link"></a></div>
+            </div>
+        </div>
+        <div class="copyright">
+            By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.
+        </div>
+    </footer>
+    </body>
+</html>
